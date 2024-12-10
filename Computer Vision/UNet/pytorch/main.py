@@ -14,8 +14,8 @@ print(DEVICE)
 # --- model save
 model_save_path = './model/UNet/'
 image_save_path = './seg_result/UNet/'
-saving = True
-saving_point = 10000
+saving = False
+saving_point = 0
 if not saving:
     saving_point = 0
 

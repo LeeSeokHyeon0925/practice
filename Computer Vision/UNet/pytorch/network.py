@@ -64,7 +64,7 @@ class UNet(torch.nn.Module):
 
         self.maxp = torch.nn.MaxPool2d(kernel_size=2, stride=2)
         self.up2x = torch.nn.Upsample(scale_factor=2, mode='bilinear')
-        self.predct = torch.nn.Conv2d(64, num_class, kernel_size=(3, 3))
+        self.predct = torch.nn.Conv2d(64, num_class, kernel_size=(1, 1))
 
     def forward(self, x):
         x_b1 = self.enc_b1(x) # [b, 512, 256, 256]
@@ -72,7 +72,7 @@ class UNet(torch.nn.Module):
         x_b2 = self.maxp(x_b1)
         x_b2 = self.enc_b2(x_b2) # [b, 512, 128, 128]
 
-        x_b3 = self.maxp(x_b1)
+        x_b3 = self.maxp(x_b2)
         x_b3 = self.enc_b3(x_b3) # [b, 512, 64, 64]
 
         x_b4 = self.maxp(x_b3)
