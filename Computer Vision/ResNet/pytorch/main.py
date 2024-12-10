@@ -16,7 +16,6 @@ print(DEVICE)
 
 # --- model save
 model_save_path = f'./model/ResNet{num_model}/'
-image_save_path = f'./seg_result/ResNet{num_model}/'
 saving = False
 saving_point = 0
 if not saving:
@@ -79,7 +78,7 @@ for it in range(saving_point, num_iter + 1):
 
     if it % 100 == 0:
         current_time = time.time() - start_time
-        print(f'it : {it}   loss : {train_loss.item():.5f}  time: {current_time:.3f}')
+        print(f'it : {it}    loss : {train_loss.item():.5f}    time: {current_time:.3f}')
         start_time = time.time()
 
     if it % 5000 == 0:

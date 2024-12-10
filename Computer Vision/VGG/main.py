@@ -5,7 +5,7 @@ from network import *
 import time, os, zipfile
 
 # --- basic constant
-num_model = 11 # 11, 13, 16, 19
+num_model = 13 # 11, 13, 16, 19
 image_size = 128
 num_cls = 200
 
@@ -16,9 +16,8 @@ print(DEVICE)
 
 # --- model save
 model_save_path = f'./model/VGG{num_model}/'
-image_save_path = f'./seg_result/VGG{num_model}/'
-saving = True
-saving_point = 75000
+saving = False
+saving_point = 0
 if not saving:
     saving_point = 0
 
@@ -81,7 +80,7 @@ for it in range(saving_point, num_iter + 1):
 
     if it % 100 == 0:
         current_time = time.time() - start_time
-        print(f'it : {it}   loss : {train_loss.item():.5f}  time: {current_time:.3f}')
+        print(f'it : {it}    loss : {train_loss.item():.5f}    time: {current_time:.3f}')
         start_time = time.time()
 
     if it % 5000 == 0:
@@ -97,8 +96,7 @@ for it in range(saving_point, num_iter + 1):
         t1, t5 = 0, 0
         num_test_image = len(z_test_list)
 
-        #for i in range(num_test_image):
-        for i in range(15661):
+        for i in range(num_test_image):
             image_temp = z_test.read(z_test_list[i])
             image_temp = cv2.imdecode(np.frombuffer(image_temp, np.uint8), 1)
             image_temp = cv2.resize(image_temp, (image_size, image_size))
@@ -125,8 +123,7 @@ for it in range(saving_point, num_iter + 1):
                         t1 += 1
 
                 pred[max_index] = -99999999
-        #t1 *= (100 / num_test_image); t5 *= (100 / num_test_image)
-        t1 *= (100 / 15661); t5 *= (100 / 15661)
+        t1 *= (100 / num_test_image); t5 *= (100 / num_test_image)
         print(f'top-1 : {t1:.4f}%    top-5 : {t5:.4f}%\n')
 
         f = open(f'{model_save_path}/accuracy.txt', 'a+')
