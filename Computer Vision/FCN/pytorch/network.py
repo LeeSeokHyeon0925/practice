@@ -98,7 +98,7 @@ class FCN_16S(torch.nn.Module):
 
         x = self.vgg16_part2(x)
         x = self.up_p2(x) # [b, num_class, 16, 16]
-        x += x_p1
+        x = x + x_p1
 
         x = self.up_p1(x) # [b, num_class, 256, 256]
 
@@ -156,10 +156,10 @@ class FCN_8S(torch.nn.Module):
 
         x = self.vgg16_part3(x)
         x = self.up_p3(x) # [b, num_class, 16, 16]
-        x += x_p2
+        x = x + x_p2
 
         x = self.up_p2(x) # [b, num_class, 32, 32]
-        x += x_p1
+        x = x + x_p1
 
         x = self.up_p1(x) # [b, num_class, 256, 256]
 
