@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1debdfc6-c547-43fd-97d9-ef3eb688bf78" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/Computer Vision/GAN/GAN.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer Vision/FCN/pytorch/function.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer Vision/FCN/pytorch/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer Vision/FCN/pytorch/network.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer Vision/ResNet/pytorch/function.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer Vision/ResNet/pytorch/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer Vision/ResNet/pytorch/network.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer Vision/SENet/SENet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer Vision/SENet/SENet_기말과제.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer Vision/UNet/pytorch/function.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer Vision/UNet/pytorch/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer Vision/UNet/pytorch/network.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer Vision/VGG/function.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer Vision/VGG/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Computer Vision/VGG/network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Computer Vision/GAN/GAN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Computer Vision/GAN/GAN.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +30,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Prog/practice",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Prog/practice&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
