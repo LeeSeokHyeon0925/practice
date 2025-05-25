@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1debdfc6-c547-43fd-97d9-ef3eb688bf78" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/Reinforcement Learning/DeepSARSA.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reinforcement Learning/Reinforcement Learning" beforeDir="false" />
-    </list>
+    <list default="true" id="1debdfc6-c547-43fd-97d9-ef3eb688bf78" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +76,7 @@
       <workItem from="1736513623830" duration="3000" />
       <workItem from="1748093435550" duration="108000" />
       <workItem from="1748095207273" duration="235000" />
-      <workItem from="1748152063696" duration="2719000" />
+      <workItem from="1748152063696" duration="3036000" />
     </task>
     <servers />
   </component>
