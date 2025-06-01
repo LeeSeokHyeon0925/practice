@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1debdfc6-c547-43fd-97d9-ef3eb688bf78" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Computer Vision/GAN/pix2pix.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Computer Vision/GAN/pix2pix.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +93,8 @@
       <workItem from="1748746402158" duration="1485000" />
       <workItem from="1748748175595" duration="77000" />
       <workItem from="1748749968365" duration="43000" />
+      <workItem from="1748759373882" duration="6000" />
+      <workItem from="1748775734938" duration="30000" />
     </task>
     <servers />
   </component>
